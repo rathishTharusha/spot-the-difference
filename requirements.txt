@@ -1,0 +1,26 @@
+# Core
+numpy
+pandas
+matplotlib
+Pillow
+opencv-python
+scikit-learn
+scipy
+
+# Torch & models
+torch
+torchvision
+
+# Transformers & open-vocab detection
+transformers
+# Optional GroundingDINO via transformers Auto* API
+
+# Vision models & utils
+timm
+albumentations
+ensemble-boxes
+open-clip-torch
+
+# Notebook
+ipykernel
+jupyter

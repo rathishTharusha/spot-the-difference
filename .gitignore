@@ -1,0 +1,103 @@
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.pyo
+
+# Packaging
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+sdist/
+wheelhouse/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+.env*/
+.venv*/
+.python-version
+pip-wheel-metadata/
+
+# Type checkers / linters / caches
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+ruff_cache/
+.cache/
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+.profile
+.ipython/
+
+# Logs
+logs/
+*.log
+
+# ---- ML/Training Artifacts ----
+# Model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Datasets and large data outputs (keep CSV metadata at root)
+# Adjust as needed if you want to version data
+data/data/
+data/raw/
+data/interim/
+data/processed/
+data/external/
+datasets/
+outputs/
+
+# Submission and metrics artifacts
+submission.csv
+submission_labels.csv
+eval_metrics.txt
+
+# Transformers / HF caches (local paths typically under user dir, but ignore if present in repo)
+huggingface/
+.tokenizers_cache/
+transformers_cache/
+datasets_cache/
+
+# Images generated during runs
+*.png~
+*.jpg~
+*.jpeg~
+*.bmp~
+
+# OS/Temp
+*.tmp
+*.temp
+~$*

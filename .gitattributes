@@ -1,0 +1,5 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Treat Jupyter notebooks as text for diffs
+*.ipynb text diff=ipynb
