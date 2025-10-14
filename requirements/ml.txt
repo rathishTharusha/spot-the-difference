@@ -1,0 +1,5 @@
+timm
+transformers
+albumentations
+ensemble-boxes
+open-clip-torch

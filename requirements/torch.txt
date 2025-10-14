@@ -1,0 +1,7 @@
+# Official torch + torchvision. If you need CUDA-specific wheels, pin to your CUDA version
+# For CPU-only, default index is fine. For CUDA 12.x, use the pytorch index url.
+# Example CUDA 12.1 (uncomment and adjust as needed):
+# --index-url https://download.pytorch.org/whl/cu121
+
+torch
+torchvision
